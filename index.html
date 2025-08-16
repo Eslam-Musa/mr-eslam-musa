@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منصة | الأستاذ إسلام موسى  </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-primary text-primary transition-colors duration-500 theme-light">
+
+    <header class="bg-secondary shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="logo-container flex items-center space-x-3 space-x-reverse">
+                <i class='bx bxs-pyramid text-4xl text-accent-lapis'></i>
+                <h1 class="text-2xl font-bold text-primary">الأستاذ إسلام موسى</h1>
+            </a>
+            <div class="flex items-center space-x-4 space-x-reverse">
+                <div class="theme-switch-wrapper">
+                    <label class="theme-switch" for="theme-checkbox">
+                        <input type="checkbox" id="theme-checkbox" />
+                        <div class="slider round">
+                            <i class='bx bxs-sun icon sun'></i>
+                            <i class='bx bxs-moon icon moon'></i>
+                        </div>
+                    </label>
+                </div>
+                <div class="hidden md:flex items-center space-x-4 space-x-reverse">
+                    <a href="https://eslammousa727-hue.github.io/mr-eslam-musa/login.html" class="px-5 py-2 rounded-lg btn-secondary font-bold">تسجيل الدخول</a>
+                    <a href="https://eslammousa727-hue.github.io/mr-eslam-musa/register.html" class="px-5 py-2 rounded-lg btn-primary font-bold">حساب جديد</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="p-2 rounded-md focus:outline-none">
+                        <i class='bx bx-menu text-3xl text-primary'></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-secondary border-t border-primary/10">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="#" class="block px-3 py-2 rounded-md text-base font-bold text-primary hover:bg-primary hover:text-secondary transition-all duration-300 ease-in-out hover:pr-6">تسجيل الدخول</a>
+                <a href="#" class="block px-3 py-2 rounded-md text-base font-bold text-primary hover:bg-primary hover:text-secondary transition-all duration-300 ease-in-out hover:pr-6">حساب جديد</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div id="dynamic-icons-container" class="absolute inset-0 w-full h-full">
+                </div>
+            <div class="container mx-auto px-6 py-16 md:py-24 flex flex-col-reverse md:flex-row items-center relative z-10">
+                <div class="md:w-1/2 text-center md:text-right mt-10 md:mt-0">
+                    <h2 class="text-4xl md:text-6xl font-black text-primary leading-tight mb-4">
+                        <span class="text-accent-lapis">التاريخ</span> و <span class="text-accent-gold">الجغرافيا</span> <br class="hidden md:block"/>  بين إيديك ببساطة
+                    </h2>
+                    <p class="text-lg text-secondary mb-8 max-w-lg mx-auto md:mx-0">
+                        مع الأستاذ إسلام موسى، هنحوّل شغفك بالمعرفة لتفوق. انضم لمنصتنا وابدأ رحلتك التعليمية.
+                    </p>
+                    <a href="https://eslammousa727-hue.github.io/mr-eslam-musa/register.html" class="inline-block px-12 py-4 text-lg font-bold rounded-xl btn-primary">
+                        !ابدأ رحلتك الآن
+                    </a>
+                </div>
+                
+                <div class="w-full md:w-1/2 flex justify-center">
+                    <div class="relative w-96 h-96 md:w-[450px] md:h-[450px]">
+                        <div class="absolute inset-0 border-4 border-dashed border-accent-gold rounded-full transform rotate-45"></div>
+                        <div class="absolute inset-0 bg-secondary rounded-full transform scale-90"></div>
+                        <div id="image-placeholder" class="relative w-full h-full rounded-full border-8 border-primary shadow-2xl bg-cover bg-center" style="background-image: url('https://eslammousa727-hue.github.io/mr-eslam-musa/img/p.png');">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-primary py-20">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-black text-center mb-12 text-primary"> مميزات المنصة  </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    
+                    <div class="feature-card rounded-2xl p-8 text-center">
+                        <div class="mb-6 inline-block p-4 bg-primary rounded-full">
+                            <i class='bx bxs-edit-alt text-4xl text-accent-gold'></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-primary mb-3">تدريب مكثف واختبارات </h3>
+                        <p class="text-secondary">آلاف الأسئلة التي تغطي المنهج بالكامل، مع اختبارات إلكترونية تحاكي امتحان الوزارة لتساعدك على قياس مستواك وضمان استعدادك التام.</p>
+                    </div>
+
+                    <div class="feature-card rounded-2xl p-8 text-center">
+                        <div class="mb-6 inline-block p-4 bg-primary rounded-full">
+                            <i class='bx bx-video text-4xl text-accent-gold'></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-primary mb-3">شرح مباشر ومسجل</h3>
+                        <p class="text-secondary">يمكنك حضور الشرح في بث مباشر تفاعلي، أو مشاهدة المحاضرات مسجلة بالكامل في أي وقت يناسبك، مما يتيح لك المراجعة بمرونة وسهولة.</p>
+                    </div>
+
+                    <div class="feature-card rounded-2xl p-8 text-center">
+                        <div class="mb-6 inline-block p-4 bg-primary rounded-full">
+                           <i class='bx bxs-user-check text-4xl text-accent-gold'></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-primary mb-3">متابعة دورية</h3>
+                        <p class="text-secondary">نظام متكامل لمتابعة مستواك الدراسي أولًا بأول. يتم تزويدك أنت وولي الأمر بتقارير دورية توضح مدى تقدمك ونقاط القوة والضعف لديك.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-secondary py-20">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-black text-center mb-12 text-primary">أحدث الكورسات</h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                    <div class="course-card rounded-2xl shadow-lg overflow-hidden flex flex-col">
+                        <img src="https://eslammousa727-hue.github.io/mr-eslam-musa/img/1a.png" alt="صورة الكورس" class="w-full h-56 object-cover">
+                        <div class="p-6 flex flex-col flex-grow">
+                            <h3 class="text-xl font-bold text-primary mb-2">كورس دراسات - الصف الأول الإعدادي</h3>
+                            <p class="text-secondary mb-4 flex-grow">تأسيس قوي في التاريخ والجغرافيا لمنهج أولى إعدادي.</p>
+                            <div class="flex items-center justify-between mt-4 space-x-2 space-x-reverse">
+                                <a href="https://eslammousa727-hue.github.io/mr-eslam-musa/register.html" class="w-1/2 text-center px-4 py-2 rounded-lg font-semibold btn-action">اشترك الآن!</a>
+                                <a href="#" class="w-1/2 text-center px-4 py-2 rounded-lg font-semibold btn-details">التفاصيل</a>
+                            </div>
+                        </div>
+                        <div class="bg-primary p-4 flex justify-between items-center text-sm text-secondary border-t border-primary/10">
+                            <span><i class='bx bx-calendar mr-1'></i> يبدأ ١ أغسطس</span>
+                            <span class="font-bold text-lg text-accent-lapis">100.00 ج</span>
+                        </div>
+                    </div>
+
+                    <div class="course-card rounded-2xl shadow-lg overflow-hidden flex flex-col">
+                        <img src="https://eslammousa727-hue.github.io/mr-eslam-musa/img/2a.jpg" alt="صورة الكورس" class="w-full h-56 object-cover">
+                        <div class="p-6 flex flex-col flex-grow">
+                            <h3 class="text-xl font-bold text-primary mb-2">كورس دراسات - الصف الثاني الإعدادي</h3>
+                            <p class="text-secondary mb-4 flex-grow">شرح شامل لمنهج الدراسات الاجتماعية مع تدريبات مكثفة.</p>
+                            <div class="flex items-center justify-between mt-4 space-x-2 space-x-reverse">
+                                <a href="https://eslammousa727-hue.github.io/mr-eslam-musa/register.html" class="w-1/2 text-center px-4 py-2 rounded-lg font-semibold btn-action">اشترك الآن!</a>
+                                <a href="#" class="w-1/2 text-center px-4 py-2 rounded-lg font-semibold btn-details">التفاصيل</a>
+                            </div>
+                        </div>
+                        <div class="bg-primary p-4 flex justify-between items-center text-sm text-secondary border-t border-primary/10">
+                            <span><i class='bx bx-calendar mr-1'></i> يبدأ ١ أغسطس</span>
+                            <span class="font-bold text-lg text-accent-lapis">100.00 ج</span>
+                        </div>
+                    </div>
+
+                    <div class="course-card rounded-2xl shadow-lg overflow-hidden flex flex-col">
+                        <img src="https://eslammousa727-hue.github.io/mr-eslam-musa/img/3a.jpg" alt="صورة الكورس" class="w-full h-56 object-cover">
+                        <div class="p-6 flex flex-col flex-grow">
+                            <h3 class="text-xl font-bold text-primary mb-2">كورس دراسات - الشهادة الإعدادية</h3>
+                            <p class="text-secondary mb-4 flex-grow">مراجعات نهائية وحل امتحانات المحافظات للشهادة الإعدادية.</p>
+                            <div class="flex items-center justify-between mt-4 space-x-2 space-x-reverse">
+                                <a href="https://eslammousa727-hue.github.io/mr-eslam-musa/register.html" class="w-1/2 text-center px-4 py-2 rounded-lg font-semibold btn-action">اشترك الآن!</a>
+                                <a href="#" class="w-1/2 text-center px-4 py-2 rounded-lg font-semibold btn-details">التفاصيل</a>
+                            </div>
+                        </div>
+                        <div class="bg-primary p-4 flex justify-between items-center text-sm text-secondary border-t border-primary/10">
+                            <span><i class='bx bx-calendar mr-1'></i> يبدأ ١ أغسطس</span>
+                            <span class="font-bold text-lg text-accent-lapis">120.00 ج</span>
+                        </div>
+                    </div>
+                     <div class="course-card rounded-2xl shadow-lg overflow-hidden flex flex-col">
+                        <img src="https://eslammousa727-hue.github.io/mr-eslam-musa/img/1s.jpeg" alt="صورة الكورس" class="w-full h-56 object-cover">
+                        <div class="p-6 flex flex-col flex-grow">
+                            <h3 class="text-xl font-bold text-primary mb-2">كورس تاريخ - الصف الأول الثانوي</h3>
+                            <p class="text-secondary mb-4 flex-grow">شرح كامل ومراجعات وامتحانات على منهج الترم الأول.</p>
+                            <div class="flex items-center justify-between mt-4 space-x-2 space-x-reverse">
+                                <a href="https://eslammousa727-hue.github.io/mr-eslam-musa/register.html" class="w-1/2 text-center px-4 py-2 rounded-lg font-semibold btn-action">اشترك الآن!</a>
+                                <a href="#" class="w-1/2 text-center px-4 py-2 rounded-lg font-semibold btn-details">التفاصيل</a>
+                            </div>
+                        </div>
+                        <div class="bg-primary p-4 flex justify-between items-center text-sm text-secondary border-t border-primary/10">
+                            <span><i class='bx bx-calendar mr-1'></i> يبدأ ١ سبتمبر</span>
+                            <span class="font-bold text-lg text-accent-lapis">120.00 ج</span>
+                        </div>
+                    </div>
+
+                    <div class="course-card rounded-2xl shadow-lg overflow-hidden flex flex-col">
+                        <img src="https://eslammousa727-hue.github.io/mr-eslam-musa/img/2s.jpg" alt="صورة الكورس" class="w-full h-56 object-cover">
+                        <div class="p-6 flex flex-col flex-grow">
+                            <h3 class="text-xl font-bold text-primary mb-2">كورس تاريخ - الصف الثاني الثانوي</h3>
+                            <p class="text-secondary mb-4 flex-grow">تغطية شاملة لمنهج التاريخ مع خرائط تفاعلية وحل أسئلة.</p>
+                            <div class="flex items-center justify-between mt-4 space-x-2 space-x-reverse">
+                                <a href="https://eslammousa727-hue.github.io/mr-eslam-musa/register.html" class="w-1/2 text-center px-4 py-2 rounded-lg font-semibold btn-action">اشترك الآن!</a>
+                                <a href="#" class="w-1/2 text-center px-4 py-2 rounded-lg font-semibold btn-details">التفاصيل</a>
+                            </div>
+                        </div>
+                        <div class="bg-primary p-4 flex justify-between items-center text-sm text-secondary border-t border-primary/10">
+                            <span><i class='bx bx-calendar mr-1'></i> يبدأ ١ سبتمبر</span>
+                            <span class="font-bold text-lg text-accent-lapis">120.00 ج</span>
+                        </div>
+                    </div>
+
+                    <div class="course-card rounded-2xl shadow-lg overflow-hidden flex flex-col">
+                        <img src="https://eslammousa727-hue.github.io/mr-eslam-musa/img/3s.jpg" alt="صورة الكورس" class="w-full h-56 object-cover">
+                        <div class="p-6 flex flex-col flex-grow">
+                            <h3 class="text-xl font-bold text-primary mb-2">كورس تاريخ - الثانوية العامة</h3>
+                            <p class="text-secondary mb-4 flex-grow">منهج التاريخ كاملاً مع التركيز على أسئلة النظام الجديد.</p>
+                            <div class="flex items-center justify-between mt-4 space-x-2 space-x-reverse">
+                                <a href="https://eslammousa727-hue.github.io/mr-eslam-musa/register.html" class="w-1/2 text-center px-4 py-2 rounded-lg font-semibold btn-action">اشترك الآن!</a>
+                                <a href="#" class="w-1/2 text-center px-4 py-2 rounded-lg font-semibold btn-details">التفاصيل</a>
+                            </div>
+                        </div>
+                        <div class="bg-primary p-4 flex justify-between items-center text-sm text-secondary border-t border-primary/10">
+                            <span><i class='bx bx-calendar mr-1'></i> يبدأ ١ أغسطس</span>
+                            <span class="font-bold text-lg text-accent-lapis">150.00 ج</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer style="background-color: var(--footer-bg);" class="text-primary pt-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="lg:col-span-2">
+                    <div class="flex items-center space-x-3 space-x-reverse mb-4">
+                        <i class='bx bxs-pyramid text-4xl text-accent-lapis'></i>
+                        <h1 class="text-2xl font-bold" style="color: var(--footer-text);">الأستاذ إسلام موسى</h1>
+                    </div>
+                    <p style="color: var(--text-secondary);">منصة متخصصة في تدريس مادتي التاريخ والجغرافيا لجميع مراحل التعليم الإعدادي والثانوي، تهدف إلى تبسيط المعلومة وتقديمها بأساليب مبتكرة وممتعة.</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-4" style="color: var(--footer-text);">روابط هامة</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="footer-link" style="color: var(--text-secondary);">الرئيسية</a></li>
+                        <li><a href="courses.html" class="footer-link" style="color: var(--text-secondary);">كل الكورسات</a></li>
+                        <li><a href="about.html" class="footer-link" style="color: var(--text-secondary);">عن الأستاذ</a></li>
+                        <li><a href="contact.html" class="footer-link" style="color: var(--text-secondary);">تواصل معنا</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-4" style="color: var(--footer-text);">تابعنا على</h3>
+                    <div class="flex space-x-4 space-x-reverse">
+                        <a href="https://www.youtube.com/@Mr.EslamMusa/featured" style="color: var(--text-secondary);" class="hover:text-red-600 transition-transform transform hover:scale-125"><i class='bx bxl-youtube text-3xl'></i></a>
+                        <a href="https://web.facebook.com/mr.eslam1musa" style="color: var(--text-secondary);" class="hover:text-blue-600 transition-transform transform hover:scale-125"><i class='bx bxl-facebook-square text-3xl'></i></a>
+                        <a href="https://wa.me/+201028684572" style="color: var(--text-secondary);" class="hover:text-green-500 transition-transform transform hover:scale-125"><i class='bx bxl-whatsapp text-3xl'></i></a>
+                        <a href="https://wa.me/+201028684572" style="color: var(--text-secondary);" class="hover:text-blue-400 transition-transform transform hover:scale-125"><i class='bx bxl-telegram text-3xl'></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8 py-4 border-t" style="border-color: rgba(255,255,255,0.1); color: var(--text-secondary);" class="text-center text-sm">
+                    <p class="text-center w-full">جميع الحقوق محفوظة &copy; <span id="currentYear"></span> | الأستاذ إسلام موسى</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
